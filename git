@@ -1,4 +1,4 @@
-echo "# C-Tests" >> README.md
+echo "# cpp" >> README.md
 git init
 git add README.md
 git commit -m "first commit"

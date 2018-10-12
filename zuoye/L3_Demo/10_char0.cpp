@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-	printf("学习C语言很容易，\r");
-	printf("但是需要一点热情！\n");
+	printf("瀛︿範C璇█寰堝鏄擄紝\r");
+	printf("浣嗘槸闇�瑕佷竴鐐圭儹鎯咃紒\n");
 	return 0;
 }
 

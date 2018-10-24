@@ -1,11 +1,11 @@
-/*é¢˜ç›®1ï¼šæœ‰3ä¸ªæ•´æ•°a,b,cï¼Œç”±é”®ç›˜è¾“å…¥ï¼Œè¾“å‡ºå…¶ä¸­æœ€å¤§çš„æ•°ã€‚
-æç¤ºï¼šå®šä¹‰3ä¸ªæ•´åž‹å˜é‡ï¼Œå¦‚n1, n2, n3ã€‚
+/*ÌâÄ¿1£ºÓÐ3¸öÕûÊýa,b,c£¬ÓÉ¼üÅÌÊäÈë£¬Êä³öÆäÖÐ×î´óµÄÊý¡£
+ÌáÊ¾£º¶¨Òå3¸öÕûÐÍ±äÁ¿£¬Èçn1, n2, n3¡£
 */
 #include <stdio.h>
 int main()
 {
     int a,b,c,temp;
-    printf("è¯·è¾“å…¥ä¸‰ä¸ªæ•´æ•°\n");
+    printf("ÇëÊäÈëÈý¸öÕûÊý\n");
     scanf("%d%d%d",&a,&b,&c);
     temp=(a>=b)?a:b;
     temp=(temp>=c)?temp:c;

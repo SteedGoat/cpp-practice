@@ -1,5 +1,5 @@
-/*ÌâÄ¿2£ºÊäÈëÒ»¸öÕûÊý£¨²»¶àÓÚ6Î»£©¡£È·¶¨Õâ¸öÊýÓÐ¼¸Î»£¿Èç¹û¸ßÓÚ6Î»£¬¾ÍÌáÊ¾"ÔÝÊ±ÎÞ·¨È·¶¨¼¸Î»"Ö®ÀàµÄÌáÊ¾¡£
-Èç£º1375£¬Î»ÊýÊÇ4Î»¡£
+/*é¢˜ç›®2ï¼šè¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼ˆä¸å¤šäºŽ6ä½ï¼‰ã€‚ç¡®å®šè¿™ä¸ªæ•°æœ‰å‡ ä½ï¼Ÿå¦‚æžœé«˜äºŽ6ä½ï¼Œå°±æç¤º"æš‚æ—¶æ— æ³•ç¡®å®šå‡ ä½"ä¹‹ç±»çš„æç¤ºã€‚
+å¦‚ï¼š1375ï¼Œä½æ•°æ˜¯4ä½ã€‚
 */
 #include <stdio.h>
 #include <cmath>
@@ -7,18 +7,18 @@ int main()
 {   
     int a;
     int n;
-    printf("ÇëÊäÈëÒ»¸öÕûÊý£¨²»¶àÓÚ6Î»£©\n");
+    printf("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼ˆä¸å¤šäºŽ6ä½ï¼‰\n");
     scanf("%d",&a);
     a=(a>=0)?a:-a;
     if(a>999999)
-        printf("ÔÝÊ±ÎÞ·¨È·¶¨¼¸Î»\n");
+        printf("æš‚æ—¶æ— æ³•ç¡®å®šå‡ ä½\n");
     else if(a==0)
-        printf("Õâ¸öÊýÓÐ1Î»\n");
+        printf("è¿™ä¸ªæ•°æœ‰1ä½\n");
     else{
         for(n=6;n>=0;n--){
             if(a>=pow(10,n-1))
                 break;
         }
-        printf("Õâ¸öÊý¹²ÓÐ%dÎ»\n",n);}
+        printf("è¿™ä¸ªæ•°å…±æœ‰%dä½\n",n);}
     return 0;
 }
